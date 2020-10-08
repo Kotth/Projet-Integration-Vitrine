@@ -1,0 +1,32 @@
+.plainText {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+li {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h1, h2, p {
+  margin-left: 0;
+  text-align: center;
+}
+
+ul, li {
+  padding: 0;
+}
+
+.list {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  padding: 0;
+}
+
+p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
