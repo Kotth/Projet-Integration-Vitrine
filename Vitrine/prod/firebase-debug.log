@@ -1,0 +1,13 @@
+[debug] [2020-10-08T15:24:42.636Z] ----------------------------------------------------------------------
+[debug] [2020-10-08T15:24:42.640Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Arnaud\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login:ci
+[debug] [2020-10-08T15:24:42.641Z] CLI Version:   8.12.0
+[debug] [2020-10-08T15:24:42.641Z] Platform:      win32
+[debug] [2020-10-08T15:24:42.641Z] Node Version:  v12.16.0
+[debug] [2020-10-08T15:24:42.643Z] Time:          Thu Oct 08 2020 17:24:42 GMT+0200 (GMT+02:00)
+[debug] [2020-10-08T15:24:42.643Z] ----------------------------------------------------------------------
+[debug] [2020-10-08T15:24:42.644Z] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=265705160&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
