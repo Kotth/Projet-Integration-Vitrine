@@ -35,9 +35,8 @@ jobs:
           name: dist
           path: ./Vitrine/prod/dist
       - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
+        uses: w9jds/firebase-action@master/Vitrine/prod
         with:
           args: deploy --only hosting
-          path: ./Vitrine/prod
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
