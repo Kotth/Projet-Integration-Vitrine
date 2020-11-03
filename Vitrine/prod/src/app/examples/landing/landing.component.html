@@ -1,22 +1,17 @@
 <div class="wrapper">
+
     <div class="page-header page-header-small">
         <div class="page-header-image rellax-header" data-rellax-speed="-8" style="background-image: url('assets/img/bg6.jpg');">
         </div>
         <div class="container">
             <div class="content-center">
                 <h1 class="title">Menura</h1>
-                <div class="text-center">
-                    <a href="" class="btn btn-primary btn-icon btn-round">
-                    <i class="fab fa-apple"></i>
-                </a>
-                  <a href='' class="btn btn-primary btn-icon btn-round">
-                    <i class="fab fa-google-play"></i>
-                  </a>
-                </div>
             </div>
         </div>
     </div>
+
     <div class="section section-about-us">
+
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto text-center">
@@ -30,26 +25,76 @@
                     </h5>
                 </div>
             </div>
+
             <div class="separator separator-primary"></div>
-            <div class="section-story-overview">
+
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="image-container image-left" style="background-image: url('assets/img/bg3.jpg')">
-                        </div>
+                    <div class="col-md-8 ml-auto mr-auto text-left">
+                        <h2 class="title text-center">Technologies utilisées</h2>
+
                     </div>
-                    <div class="col-md-5">
-                        <!-- First image on the right side, above the article -->
-                        <div class="image-container image-right" style="background-image: url('assets/img/bg1.jpg')"></div>
-                        <h3>Pourquoi recenser les oiseaux?</h3>
-                        <p>
-                            Cela permet de mieux comprendre les comportements des espèces et essayer de détecter les anomalies.
-                        </p>
+                </div>
+            </div>
+
+            <div class="separator separator-primary"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-left">
+                        <h2 class="title text-center">Avancement du projet</h2>
+                        <div class="progress-container progress-primary">
+                            <span class="progress-badge">Progression</span>
+                            <ngb-progressbar [value]="60"><span class="progress-value">60%</span></ngb-progressbar><br>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="separator separator-primary"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="assets/img/bg6.jpg" class="d-block w-100" alt="0">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/bg5.jpg-" class="d-block w-100" alt="1">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/bg7.jpg" class="d-block w-100" alt="2">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+
     <div class="section section-team text-center">
+
         <div class="container">
             <h2 class="title">Notre équipe</h2>
             <div class="team">
@@ -139,6 +184,9 @@
 
             </div>
         </div>
+
     </div>
+
     <footer class="footer footer-default"></footer>
+
 </div>
