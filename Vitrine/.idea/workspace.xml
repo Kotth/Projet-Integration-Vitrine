@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47148f10-3c79-4afb-bc79-580aecc4f545" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prod/src/app/examples/landing/landing.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/examples/landing/landing.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/src/assets/sass/now-ui-kit/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/assets/sass/now-ui-kit/_misc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\GitHub\Projet-Integration-Vitrine\Vitrine\prod\src\assets\img" />
+      <recent name="D:\Documents\GitHub\Projet-Integration-Vitrine\Vitrine\prod\src\assets\img\birds" />
+      <recent name="D:\Documents\GitHub\Projet-Integration-Vitrine\Vitrine\prod\src" />
+      <recent name="D:\Documents\GitHub\Projet-Integration-Vitrine\Vitrine\prod\src\app" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -45,10 +54,23 @@
       <workItem from="1603274203814" duration="479000" />
       <workItem from="1603274706381" duration="1234000" />
       <workItem from="1604324514541" duration="457000" />
+      <workItem from="1604419072013" duration="666000" />
+      <workItem from="1604491669616" duration="2195000" />
+      <workItem from="1604504651839" duration="3376000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604504866072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604504866072" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1604492911496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1604492911496" />
   </component>
 </project>

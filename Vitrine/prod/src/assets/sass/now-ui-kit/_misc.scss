@@ -61,3 +61,14 @@ body{
         background-color: $primary-color;
     }
 }
+
+.separator-line{
+    height: 2px;
+    width: 50%;
+    background-color: $default-color;
+    margin: 20px auto;
+
+    &.separator-primary{
+        background-color: $primary-color;
+    }
+}
