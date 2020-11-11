@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="47148f10-3c79-4afb-bc79-580aecc4f545" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/src/app/examples/landing/landing.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/examples/landing/landing.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/src/assets/sass/now-ui-kit/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/assets/sass/now-ui-kit/_misc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +54,7 @@
       <workItem from="1604419072013" duration="666000" />
       <workItem from="1604491669616" duration="2195000" />
       <workItem from="1604504651839" duration="3376000" />
+      <workItem from="1604582672516" duration="920000" />
     </task>
     <servers />
   </component>
