@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="47148f10-3c79-4afb-bc79-580aecc4f545" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/src/app/app.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/app.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/src/app/examples/landing/landing.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/examples/landing/landing.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/src/app/examples/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/examples/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/src/app/examples/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/examples/profile/profile.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/src/app/shared/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/shared/navbar/navbar.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +29,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\Documents\GitHub\Projet-Integration-Vitrine\Vitrine\prod\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -55,6 +64,9 @@
       <workItem from="1604491669616" duration="2195000" />
       <workItem from="1604504651839" duration="3376000" />
       <workItem from="1604582672516" duration="920000" />
+      <workItem from="1605538559883" duration="698000" />
+      <workItem from="1605609440387" duration="5871000" />
+      <workItem from="1605616158711" duration="109000" />
     </task>
     <servers />
   </component>
@@ -66,9 +78,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604504866072" />
-    <state width="498" height="398" key="SwitcherDM" timestamp="1604492911496">
+    <state width="498" height="398" key="SwitcherDM" timestamp="1605614887231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1604492911496" />
+    <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1605614887231" />
   </component>
 </project>
