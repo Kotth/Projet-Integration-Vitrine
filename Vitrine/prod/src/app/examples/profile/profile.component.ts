@@ -39,7 +39,7 @@ export class ProfileComponent implements OnInit {
     }
 
     getHistorique() {
-      return this.http.get('http://146.59.195.248:3000/v1/api/historiques/all');
+      return this.http.get('https://146.59.195.248:3000/v1/api/historiques/all');
     }
 
 }
