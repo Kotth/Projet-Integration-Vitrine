@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as Rellax from 'rellax';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {map} from 'rxjs/operators';
 
 @Component({
   selector: 'app-profile',
@@ -14,8 +16,9 @@ export class ProfileComponent implements OnInit {
     data : Date = new Date();
     focus;
     focus1;
+    hist;
 
-    constructor() { }
+    constructor(private http: HttpClient) { }
 
     ngOnInit() {
       var rellaxHeader = new Rellax('.rellax-header');
@@ -24,12 +27,19 @@ export class ProfileComponent implements OnInit {
         body.classList.add('profile-page');
         var navbar = document.getElementsByTagName('nav')[0];
         navbar.classList.add('navbar-transparent');
+
+        this.getHistorique().subscribe(data => {this.hist = data});
+        console.log(this.hist);
     }
     ngOnDestroy(){
         var body = document.getElementsByTagName('body')[0];
         body.classList.remove('profile-page');
         var navbar = document.getElementsByTagName('nav')[0];
         navbar.classList.remove('navbar-transparent');
+    }
+
+    getHistorique() {
+      return this.http.get('http://146.59.195.248:3000/v1/api/historiques/all');
     }
 
 }
