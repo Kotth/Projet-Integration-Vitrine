@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47148f10-3c79-4afb-bc79-580aecc4f545" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/src/app/examples/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/examples/profile/profile.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/src/assets/sass/now-ui-kit/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/assets/sass/now-ui-kit/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,8 @@
       <workItem from="1606155481187" duration="956000" />
       <workItem from="1606219499608" duration="3375000" />
       <workItem from="1606310686319" duration="4623000" />
-      <workItem from="1606378889973" duration="808000" />
+      <workItem from="1606378889973" duration="1408000" />
+      <workItem from="1606381770625" duration="332000" />
     </task>
     <servers />
   </component>
