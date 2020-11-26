@@ -30,6 +30,7 @@ export class ProfileComponent implements OnInit {
 
         this.getHistorique().subscribe(data => {this.hist = data});
         console.log(this.hist);
+        console.log(this.getHistorique());
     }
     ngOnDestroy(){
         var body = document.getElementsByTagName('body')[0];
