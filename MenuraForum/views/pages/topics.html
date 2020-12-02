@@ -1,0 +1,16 @@
+<div class="container">
+        <div class="md-col-6 text-center">
+            <div class="card">
+                <div class="card-header">
+                        <h1><u>Menura-Forum</u></h1>
+                </div>
+                <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" ng-repeat="topic in topics">
+                                <a ui-sref="topic({topicId: topic._id})"><h3 class="display-4">{{ topic.name }}</h3></a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="md-col-6 text-center">
+        <div class="page">
+            <h2 style="padding:1em;">{{ thread.content }}</h2>
+            <ul>
+                <li ng-repeat="post in posts">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="mb-0" ng-bind="post.content"></p>
+                            <footer class="card-footer text-muted text-right">- Posté par {{ post.author }}</footer>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="card">
+                <div class="card-body text-left">
+                    <h4>Répondre</h4>
+                    <form ng-submit="createPost(post)" class="text-center">
+                        <textarea class="form-control" type="text" placeholder="Ecrivez votre réponse." ng-model="post.content"></textarea>
+                        <button type="submit" class="btn btn-secondary">Poster</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

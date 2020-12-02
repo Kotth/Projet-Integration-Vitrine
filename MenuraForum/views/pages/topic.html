@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="md-col-6 text-center">
+        <div class="card">
+            <div class="card-header">
+                <h1 ui-sref="topic({topicId: topic._id})" style="padding:1em;">{{ topic.name }}</h1>
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li ng-repeat="thread in threads" class="list-group-item">
+                        <h5 class="h5"><a ui-sref="thread({threadId: thread._id})">{{ thread.content }}</a></h5>
+                        <footer class="blockquote-footer">Posté par {{ thread.author }}</footer>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body text-left">
+                <h4 class="h4">Créer un nouveau sujet</h4>
+                <form ng-submit="createThread(thread)" class="text-center">
+                    <textarea class="form-control" type="text" placeholder="Commencer une discussion." ng-model="thread.content"></textarea>
+                    <button type="submit" class="btn btn-secondary">Créer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
