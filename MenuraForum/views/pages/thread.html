@@ -1,17 +1,20 @@
 <div class="container">
     <div class="md-col-6 text-center">
         <div class="page">
-            <h2 style="padding:1em;">{{ thread.content }}</h2>
-            <ul>
-                <li ng-repeat="post in posts">
-                    <div class="card">
-                        <div class="card-body">
+            <div class="card">
+                <div class="card-header">
+                    <h2>{{ thread.content }}</h2>
+                    <footer class="blockquote-footer">Posté par {{ thread.author.split('@')[0] }} le {{ thread.createdAt.toLocaleDateString('fr-FR', {day: 'numeric', month: 'long', year: 'numeric'}) }}.</footer>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li ng-repeat="post in posts" class="list-group-item">
                             <p class="mb-0" ng-bind="post.content"></p>
-                            <footer class="card-footer text-muted text-right">- Posté par {{ post.author }}</footer>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+                            <footer class="blockquote-footer">Réponse de {{ post.author.split('@')[0] }} le {{ post.createdAt.toLocaleDateString('fr-FR', {day: 'numeric', month: 'long', year: 'numeric'}) }}.</footer>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="card">
                 <div class="card-body text-left">
                     <h4>Répondre</h4>
