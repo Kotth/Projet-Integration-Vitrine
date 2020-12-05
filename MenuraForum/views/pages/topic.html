@@ -1,14 +1,14 @@
 <div class="container">
     <div class="md-col-6 text-center">
-        <div class="card">
+        <div class="card ">
             <div class="card-header">
-                <h1 ui-sref="topic({topicId: topic._id})" style="padding:1em;">{{ topic.name }}</h1>
+                <h1 ui-sref="topic({topicId: topic._id})">{{ topic.name }}</h1>
             </div>
             <div class="card-body">
                 <ul class="list-group list-group-flush">
                     <li ng-repeat="thread in threads" class="list-group-item">
                         <h5 class="h5"><a ui-sref="thread({threadId: thread._id})">{{ thread.content }}</a></h5>
-                        <footer class="blockquote-footer">Posté par {{ thread.author }}</footer>
+                        <footer class="blockquote-footer">Posté par {{ thread.author.split('@')[0] }} le {{ thread.createdAt.toLocaleDateString('fr-FR', {day: 'numeric', month: 'long', year: 'numeric'}) }}.</footer>
                     </li>
                 </ul>
             </div>

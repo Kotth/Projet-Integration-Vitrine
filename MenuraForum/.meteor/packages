@@ -18,9 +18,9 @@ accounts-base
 accounts-password
 angularui:angular-ui-router
 check
-dotansimha:accounts-ui-angular
 angular-templates
 pbastowski:angular-babel
 seba:minifiers-autoprefixer
 materialize:materialize
 fourseven:scss
+dotansimha:accounts-ui-angular
