@@ -9,7 +9,7 @@
                 <div class="card-body">
                     <ul class="list-group list-group-flush">
                         <li ng-repeat="post in posts" class="list-group-item">
-                            <p class="mb-0" ng-bind="post.content"></p>
+                            <p class="mb-0 response" ng-bind="post.content"></p>
                             <footer class="blockquote-footer">Réponse de {{ post.author.split('@')[0] }} le {{ post.createdAt.toLocaleDateString('fr-FR', {day: 'numeric', month: 'long', year: 'numeric'}) }}.</footer>
                         </li>
                     </ul>
