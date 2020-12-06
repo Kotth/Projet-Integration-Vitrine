@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d3d252ad-6f19-463a-ab71-de1e011e360f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.meteor/packages" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/thread.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/thread.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/topics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vitrine/prod/src/app/examples/landing/landing.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Vitrine/prod/src/app/examples/landing/landing.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +64,8 @@
       <workItem from="1607171948316" duration="111000" />
       <workItem from="1607172156473" duration="250000" />
       <workItem from="1607172974226" duration="944000" />
+      <workItem from="1607180688326" duration="407000" />
+      <workItem from="1607247792868" duration="18000" />
     </task>
     <servers />
   </component>
@@ -77,6 +73,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607247799497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607247799497" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1607171645348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

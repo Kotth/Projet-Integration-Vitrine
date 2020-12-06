@@ -25,6 +25,11 @@ export class NavbarComponent implements OnInit {
             toggleButton.classList.add('toggled');
         }, 500);
         html.classList.add('nav-open');
+        const tab = document.getElementsByClassName('isDisabled');
+        for (let i = 0; i < tab.length; i++) {
+            tab.item(i).style.cursor = 'auto';
+            tab.item(i).style.display = 'inline-block';
+        }
 
         this.sidebarVisible = true;
     };
@@ -34,6 +39,11 @@ export class NavbarComponent implements OnInit {
         this.toggleButton.classList.remove('toggled');
         this.sidebarVisible = false;
         html.classList.remove('nav-open');
+        const tab = document.getElementsByClassName('isDisabled');
+        for (let i = 0; i < tab.length; i++) {
+            tab.item(i).style.cursor = 'default';
+            tab.item(i).style.display = 'none';
+        }
     };
     sidebarToggle() {
         // const toggleButton = this.toggleButton;
