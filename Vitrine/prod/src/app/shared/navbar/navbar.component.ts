@@ -27,7 +27,9 @@ export class NavbarComponent implements OnInit {
         html.classList.add('nav-open');
         const tab = document.getElementsByClassName('isDisabled');
         for (let i = 0; i < tab.length; i++) {
+            // @ts-ignore
             tab.item(i).style.cursor = 'auto';
+            // @ts-ignore
             tab.item(i).style.display = 'inline-block';
         }
 
@@ -41,7 +43,9 @@ export class NavbarComponent implements OnInit {
         html.classList.remove('nav-open');
         const tab = document.getElementsByClassName('isDisabled');
         for (let i = 0; i < tab.length; i++) {
+            // @ts-ignore
             tab.item(i).style.cursor = 'default';
+            // @ts-ignore
             tab.item(i).style.display = 'none';
         }
     };
@@ -54,7 +58,7 @@ export class NavbarComponent implements OnInit {
             this.sidebarClose();
         }
     };
-  
+
     isDocumentation() {
         var titlee = this.location.prepareExternalUrl(this.location.path());
         if( titlee === '/documentation' ) {
