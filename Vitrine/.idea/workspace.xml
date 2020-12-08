@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47148f10-3c79-4afb-bc79-580aecc4f545" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/src/app/examples/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/examples/profile/profile.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prod/src/app/examples/profile/profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/examples/profile/profile.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod/src/app/shared/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prod/src/app/shared/navbar/navbar.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,28 +74,14 @@
       <workItem from="1606903934049" duration="576000" />
       <workItem from="1606909190911" duration="4001000" />
       <workItem from="1606922661018" duration="5390000" />
+      <workItem from="1606929395812" duration="1099000" />
+      <workItem from="1607335886793" duration="353000" />
+      <workItem from="1607427140459" duration="154000" />
+      <workItem from="1607430901901" duration="2641000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1606314413524">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606314413524" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604504866072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604504866072" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1606315021886">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606315021886" />
-    <state width="498" height="398" key="SwitcherDM" timestamp="1605614887231">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1605614887231" />
   </component>
 </project>
